@@ -1,3 +1,4 @@
+# 🚀 Peminjaman primakara
 ## Tutorial Running Local
 
 - Install Composer min version : 2.7.2
@@ -6,26 +7,37 @@
 
 ## Tutorial Install Depedency
 
-- Install composer and depedency project
-```console
-composer install
+### 🔹 **Step 1: Clone the Repository**
+```sh
+git clone https://github.com/Prajwal100/Complete-Ecommerce-in-laravel-10.git
+cd Complete-Ecommerce-in-laravel-10
 ```
-```console
+
+### 🔹 **Step 2: Install Dependencies**
+```sh
+composer install
 npm install
 ```
-- Copy .env.example and paste change name to .env
-```console
+
+### 🔹 **Step 3: Environment Setup**
+```sh
+cp .env.example .env
 php artisan key:generate
 ```
-- Create database : sistem_peminjaman_barang_ruangan
-- Import sql file sistem_peminjaman_barang_ruangan.sql to db 
+Update `.env` with database credentials.
 
-## Tutorial Running Local
-- Open two terminal type
- ```console
+### 🔹 **Step 4: Database Configuration**
+```sh
+php artisan migrate --seed
+```
+
+
+### 🔹 **Step 5: Run the Application**
+```sh
 php artisan serve
 ```
-AND
-```console
-npm run dev
-```
+🔗 Open `http://localhost:8000`
+
+### **Admin Login Credentials:**
+📧 **Username:** `admin`  
+🔑 **Password:** `password`
