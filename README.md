@@ -9,8 +9,8 @@
 
 ### 🔹 **Step 1: Clone the Repository**
 ```sh
-git clone https://github.com/Prajwal100/Complete-Ecommerce-in-laravel-10.git
-cd Complete-Ecommerce-in-laravel-10
+git clone https://github.com/fabio2406/Peminjaman-primakara-final.git
+cd Peminjaman-primakara-final
 ```
 
 ### 🔹 **Step 2: Install Dependencies**
