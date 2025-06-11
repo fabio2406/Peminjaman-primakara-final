@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'XDPrime';
+    src: url('/fonts/XDPrime-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'XDPrime Bold';
+    src: url('/fonts/XDPrime-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    font-family: 'XDPrime';
+}
+
+
+a {
+  color: #004680; /* Default button background color */
+  text-decoration:none
+}
+a.text-large:hover {
+  font-family: 'XDPrime Bold';
+  color: #005194; /* Hover state background color */
+  text-decoration:none
+}
+a:active {
+  color: #0060B4; /* Active state background color */
+  text-decoration:none
+}
+ /* Custom button styles */
+.btn-primary {
+    background-color: #004680; /* Default button background color */
+    color: white; /* Text color */
+      border: none; /* Menghapus border */
+    outline: none; /* Menghapus outline */
+  }
+  .btn-primary:hover {
+    background-color: #005194; /* Hover state background color */
+  }
+  .btn-primary:active {
+    background-color: #0060B4; /* Active state background color */
+  }
+  .btn-primary:disabled{
+    background-color: #C4D4E3; /* Warna latar baru */
+    color: #627382; /* Warna teks baru */
+    cursor: not-allowed; /* Ubah kursor menjadi tanda dilarang */
+}
+
+.btn-danger {
+  background-color: #EE6363; /* Default button background color */
+  color: white; /* Text color */
+    border: none; /* Menghapus border */
+  outline: none; /* Menghapus outline */
+}
+
+.btn-success {
+  background-color: #17A35F; /* Default button background color */
+  color: white; /* Text color */
+    border: none; /* Menghapus border */
+  outline: none; /* Menghapus outline */
+}
+
+.btn-warning {
+  background-color: #EB9A3C; /* Default button background color */
+  color: white; /* Text color */
+    border: none; /* Menghapus border */
+  outline: none; /* Menghapus outline */
+}
+.btn-warning:hover {
+
+  color: white; /* Text color */
+
+}
+
+  .btn-secondary {
+    background-color: #149FA9; /* Default button background color */
+    color: white; /* Text color */
+      border: none; /* Menghapus border */
+    outline: none; /* Menghapus outline */
+  }
+  .btn-secondary:hover {
+    background-color: #1C656E; /* Hover state background color */
+  }
+  .btn-secondary:active {
+    background-color: #0C3840; /* Active state background color */
+  }
+
+
+   /* Custom page-link styles */
+  .page-link {
+    color: #005194; /* Active state background color */
+  }
+  .page-link:hover {
+    background-color: #0060B4; /* Hover state background color */
+    color: white;
+    border-color:  #0060B4;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #005194; /* Warna latar belakang untuk item aktif */
+    color: white;
+    border-color:  #005194; /* Warna teks untuk item aktif */
+}
+
+
+ /* Custom badge styles */
+ .bg-warning {
+  background-color: #EB9A3C !important;
+  color: white; /* Sesuaikan warna teks jika perlu */
+}
+
+.bg-success {
+  background-color: #17A35F !important;
+  color: white; /* Sesuaikan warna teks jika perlu */
+}
+
+.bg-primary {
+  background-color: #004680 !important;
+  color: white; /* Sesuaikan warna teks jika perlu */
+}
+
+.bg-secondary {
+  background-color: #149FA9 !important;
+  color: white; /* Sesuaikan warna teks jika perlu */
+}
+
+.bg-danger {
+  background-color: #EE6363 !important;
+  color: white; /* Sesuaikan warna teks jika perlu */
+}
+
+
+ /* Custom text styles */
+ .text-warning {
+  color: #EB9A3C !important; /* Sesuaikan warna teks jika perlu */
+}
+
+.text-success {
+  color: #17A35F !important; /* Sesuaikan warna teks jika perlu */
+}
+
+.text-primary {
+  color: #004680 !important; /* Sesuaikan warna teks jika perlu */
+}
+
+.text-danger {
+  color: #EE6363 !important; /* Sesuaikan warna teks jika perlu */
+}
+
+/* CSS untuk memperbesar ikon */
+.icon-large {
+  width: 24px;  /* Ganti dengan ukuran yang diinginkan */
+  height: 24px; /* Ganti dengan ukuran yang diinginkan */
+}
+
+/* CSS untuk memperbesar teks */
+.text-large {
+  font-size: 1.25rem; /* Mengubah ukuran font */
+  line-height: 1.5; /* Mengatur tinggi baris */
+}
+
+/* Menambah padding jika diperlukan */
+
+
+/* Custom alert style */
+
+.alert-warning {
+    position: fixed; /* Menggunakan posisi absolute */
+    top: 20px; /* Menentukan jarak dari atas halaman */
+    left: 50%; /* Menempatkan di tengah secara horizontal */
+    transform: translateX(-50%); /* Menggeser kembali ke tengah secara horizontal */
+    color: black;
+    background: linear-gradient(to right, #ebd5b8, #eff9fe);
+    border: none;
+    z-index: 1050;
+}
+
+.alert-danger {
+    position: fixed; /* Menggunakan posisi absolute */
+    top: 20px; /* Menentukan jarak dari atas halaman */
+    left: 50%; /* Menempatkan di tengah secara horizontal */
+    transform: translateX(-50%); /* Menggeser kembali ke tengah secara horizontal */
+    color: black;
+    background: linear-gradient(to right, #ebc1c5, #eff9fe);
+    border: none;
+    z-index: 1050;
+}
+
+.alert-primary {
+    position: fixed; /* Menggunakan posisi absolute */
+    top: 20px; /* Menentukan jarak dari atas halaman */
+    left: 50%; /* Menempatkan di tengah secara horizontal */
+    transform: translateX(-50%); /* Menggeser kembali ke tengah secara horizontal */
+    color: black;
+    background: linear-gradient(to right, #9dbad0, #eff9fe);
+    border: none;
+    z-index: 1050;
+}
+
+.alert-success {
+    position: fixed; /* Menggunakan posisi absolute */
+    top: 20px; /* Menentukan jarak dari atas halaman */
+    left: 50%; /* Menempatkan di tengah secara horizontal */
+    transform: translateX(-50%); /* Menggeser kembali ke tengah secara horizontal */
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, #a4dac5, #eff9fe);
+    border: none;
+    z-index: 1050;
+}

@@ -1,0 +1,34 @@
+
+
+body {
+    background-color: #cbd5e0; /* Warna background abu-abu */
+  }
+  .login-container {
+    max-width: 900px; /* Ukuran maksimum container */
+    border-radius: 15px; /* Membuat rounded pada container */
+    background-color: white; /* Warna background putih */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  }
+  .image-container {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+    margin: 0; /* Menghapus margin */
+    padding: 0; /* Menghapus padding */
+  }
+  .image-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .welcome-text {
+    color: white;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  .welcome-text .underline {
+    text-decoration: underline;
+    text-decoration-color: limegreen;
+  }
+  /* Custom button styles */
